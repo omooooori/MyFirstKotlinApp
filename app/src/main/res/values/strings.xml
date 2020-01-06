@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">KotlinApp</string>
+    <string name="app_name">Happy New Year</string>
+    <string name="image_description">happy new year image</string>
+    <string name="text_view_string">From Ryosuke</string>
 </resources>
