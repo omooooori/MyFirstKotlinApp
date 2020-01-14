@@ -1,11 +1,13 @@
 <resources>
-<!--    Happy New Year-->
-    <string name="app_name">Happy New Year</string>
+    <!--    Happy New Year-->
+    <string name="app_name">My Kotlin App</string>
     <string name="image_description">happy new year image</string>
     <string name="text_view_string">From Ryosuke</string>
-<!--    Main App-->
+    <!--    Main App-->
     <string name="to_edit_text_string">To:</string>
     <string name="subject_edit_text_string">Subject:</string>
     <string name="message_edit_text_string">message</string>
     <string name="button_string">send</string>
+    <!--    Dice App-->
+    <string name="button_name">ROLL</string>
 </resources>
