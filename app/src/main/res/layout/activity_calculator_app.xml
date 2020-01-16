@@ -8,6 +8,7 @@
     tools:context=".CalculatorApp">
 
     <EditText
+        android:id="@+id/edit_text"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginLeft="8dp"
@@ -33,34 +34,46 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/button_one"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_one"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_two"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_two"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_three"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_three"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_divide"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:text="@string/button_divide"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
         </LinearLayout>
@@ -76,34 +89,46 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/button_four"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_four"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_five"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_five"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_six"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_six"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_minus"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:text="@string/button_minus"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
         </LinearLayout>
@@ -119,34 +144,46 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/button_seven"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_seven"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_eight"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_eight"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_nine"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_nine"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_plus"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:text="@string/button_plus"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
         </LinearLayout>
@@ -162,34 +199,46 @@
             android:orientation="horizontal">
 
             <Button
+                android:id="@+id/button_clear"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_clear"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_zero"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_zero"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_time"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:layout_marginEnd="8dp"
                 android:text="@string/button_time"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
             <Button
+                android:id="@+id/button_equal"
                 android:layout_width="wrap_content"
                 android:layout_height="75dp"
                 android:text="@string/button_equal"
                 android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:onClick="operationFunction"
                 android:layout_weight="0.25"/>
 
         </LinearLayout>
