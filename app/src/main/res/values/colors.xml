@@ -5,4 +5,7 @@
     <color name="colorAccent">#D81B60</color>
     <!--    Dice App-->
     <color name="background_color">#A4D3F0</color>
+    <!--    GuessMyNumber App-->
+    <color name="success_color">#00e600</color>
+    <color name="reset_button_color">#99ccff</color>
 </resources>

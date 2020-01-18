@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GuessMyNumber">
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="25dp"
+        app:fontFamily="sans-serif"
+        android:textSize="25sp"
+        tools:text="question"/>
+
+    <TextView
+        android:id="@+id/text_view_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/success_text_view"
+        android:layout_centerInParent="true"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif"
+        android:visibility="invisible"
+        android:layout_margin="8dp"
+        android:textColor="@color/success_color"/>
+    
+    <TextView
+        android:id="@+id/text_view_targeted_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="our number"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        app:fontFamily="sans-serif"
+        android:layout_margin="8dp"
+        android:layout_below="@id/text_view_success"/>
+    
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/reset_button_color"
+        android:text="@string/reset_button_string"
+        android:layout_margin="8dp"
+        android:onClick="resetGame"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:weightSum="6"
+        android:layout_above="@+id/button_reset">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/downward_arrow"
+            android:onClick="arrowDown"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/success"
+            android:onClick="successFunction"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:src="@drawable/upward_arrow"
+            android:onClick="arrowUp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
