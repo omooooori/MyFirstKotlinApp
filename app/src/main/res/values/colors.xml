@@ -8,4 +8,7 @@
     <!--    GuessMyNumberApp-->
     <color name="success_color">#00e600</color>
     <color name="reset_button_color">#99ccff</color>
+    <!--    DictionaryApp-->
+    <color name="edit_text_border">#ffdd99</color>
+    <color name="edit_text_background">#fff7e6</color>
 </resources>

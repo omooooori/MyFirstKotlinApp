@@ -46,4 +46,7 @@
     <string name="weight_text">Weight in kg</string>
     <string name="height_text">Height in cm</string>
     <string name="button_calculate">calculate</string>
+    <!--    DictionaryApp-->
+    <string name="edit_text_search_word">search your word</string>
+    <string name="button_text_find">find</string>
 </resources>
