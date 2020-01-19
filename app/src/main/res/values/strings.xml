@@ -1,9 +1,20 @@
 <resources>
+    <!--    MainMenu List-->
+    <string-array name="page_list">
+        <item>Happy New Year App</item>
+        <item>Mail App</item>
+        <item>Dice App</item>
+        <item>Calculator App</item>
+        <item>Guess My Number App</item>
+        <item>BMI Calculation App</item>
+        <item>ListView Sample App</item>
+        <item>Dictionary App</item>
+    </string-array>
     <!--    Happy New Year-->
     <string name="app_name">My Kotlin App</string>
     <string name="image_description">happy new year image</string>
     <string name="text_view_string">From Ryosuke</string>
-    <!--    Main App-->
+    <!--    Mail App-->
     <string name="to_edit_text_string">To:</string>
     <string name="subject_edit_text_string">Subject:</string>
     <string name="message_edit_text_string">message</string>
