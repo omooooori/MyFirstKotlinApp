@@ -3,9 +3,9 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
-    <!--    Dice App-->
+    <!--    DiceApp-->
     <color name="background_color">#A4D3F0</color>
-    <!--    GuessMyNumber App-->
+    <!--    GuessMyNumberApp-->
     <color name="success_color">#00e600</color>
     <color name="reset_button_color">#99ccff</color>
 </resources>

@@ -9,11 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <!-- <activity android:name=".ListViewSample"></activity> -->
         <!-- <activity android:name=".BMICalculation"></activity> -->
         <!-- <activity android:name=".GuessMyNumber"></activity> -->
         <!-- <activity android:name=".CalculatorApp"></activity> -->
         <!-- <activity android:name=".DiceApp"></activity> -->
-        <activity android:name=".BMICalculation">
+        <activity android:name=".ListViewSample">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
