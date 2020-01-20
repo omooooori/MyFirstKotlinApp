@@ -11,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HappyNewYearApp"></activity>
-        <activity android:name=".MailApp"></activity>
-        <activity android:name=".DiceApp"></activity>
-        <activity android:name=".CalculatorApp"></activity>
-        <activity android:name=".GuessMyNumber"></activity>
-        <activity android:name=".BMICalculation"></activity>
-        <activity android:name=".ListViewSample"></activity>
-        <activity android:name=".DictionaryApp"></activity>
+        <activity android:name=".NewsApp"></activity>
+        <activity android:name=".HappyNewYearApp" />
+        <activity android:name=".MailApp" />
+        <activity android:name=".DiceApp" />
+        <activity android:name=".CalculatorApp" />
+        <activity android:name=".GuessMyNumber" />
+        <activity android:name=".BMICalculation" />
+        <activity android:name=".ListViewSample" />
+        <activity android:name=".DictionaryApp" />
         <activity android:name=".Definition" />
         <activity android:name=".MainActivity">
             <intent-filter>

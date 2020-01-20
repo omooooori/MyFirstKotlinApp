@@ -68,6 +68,11 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, DictionaryApp::class.java)
                 startActivity(intent)
             }
+
+            if (item == "News App") {
+                val intent = Intent(this@MainActivity, NewsApp::class.java)
+                startActivity(intent)
+            }
         }
     }
 }

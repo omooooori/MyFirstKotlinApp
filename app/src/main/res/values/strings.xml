@@ -9,6 +9,7 @@
         <item>BMI Calculation App</item>
         <item>ListView Sample App</item>
         <item>Dictionary App</item>
+        <item>News App</item>
     </string-array>
     <!--    Happy New Year-->
     <string name="app_name">My Kotlin App</string>
@@ -60,4 +61,8 @@
     <!--    DictionaryApp-->
     <string name="edit_text_search_word">search your word</string>
     <string name="button_text_find">find</string>
+    <!--    NewsApp-->
+    <string name="button_text_search">search</string>
+    <string name="button_text_load_more">load more</string>
+    <string name="edit_text_search_topic">search your topic</string>
 </resources>
