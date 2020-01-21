@@ -65,4 +65,11 @@
     <string name="button_text_search">search</string>
     <string name="button_text_load_more">load more</string>
     <string name="edit_text_search_topic">search your topic</string>
+    <string name="image_view_description">description</string>
+    <string name="button_text_confirm">confirm</string>
+    <string name="text_view_germany">germany</string>
+    <string name="text_view_location">location</string>
+    <string name="text_view_town">town</string>
+    <string name="edit_text_your_location">your location</string>
+    <string name="edit_text_your_town">your town</string>
 </resources>
