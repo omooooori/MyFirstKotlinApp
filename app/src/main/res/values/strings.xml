@@ -10,6 +10,7 @@
         <item>ListView Sample App</item>
         <item>Dictionary App</item>
         <item>News App</item>
+        <item>ConstraintLayout Practice</item>
     </string-array>
     <!--    Happy New Year-->
     <string name="app_name">My Kotlin App</string>
@@ -65,6 +66,7 @@
     <string name="button_text_search">search</string>
     <string name="button_text_load_more">load more</string>
     <string name="edit_text_search_topic">search your topic</string>
+    <!--    ConstraintLayoutApp-->
     <string name="image_view_description">description</string>
     <string name="button_text_confirm">confirm</string>
     <string name="text_view_germany">germany</string>
