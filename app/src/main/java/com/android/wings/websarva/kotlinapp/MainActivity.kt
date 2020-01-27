@@ -78,6 +78,11 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, ConstraintLayoutApp::class.java)
                 startActivity(intent)
             }
+
+            if (item == "Fitness App") {
+                val intent = Intent(this@MainActivity, FitnessApp::class.java)
+                startActivity(intent)
+            }
         }
     }
 }

@@ -11,6 +11,7 @@
         <item>Dictionary App</item>
         <item>News App</item>
         <item>ConstraintLayout Practice</item>
+        <item>Fitness App</item>
     </string-array>
     <!--    Happy New Year-->
     <string name="app_name">My Kotlin App</string>
@@ -74,4 +75,18 @@
     <string name="text_view_town">town</string>
     <string name="edit_text_your_location">your location</string>
     <string name="edit_text_your_town">your town</string>
+    <!--    FitnessApp-->
+    <string name="title_fitness_app">Exercise Number: (%d/%d)</string>
+    <string name="text_view_exercise_tools">%d times</string>
+    <string name="button_text_next">next</string>
+    <string name="button_text_exit">exit</string>
+    <string name="button_text_go">go</string>
+    <string name="button_text_next_workout">next workout</string>
+    <string name="button_text_try_again">try again</string>
+    <string name="about_fitness">About</string>
+    <string name="text_view_about_fitness">in this app we will learn about navigation.\n\nnavigation will give us a great
+        view of
+        our app
+    </string>
+
 </resources>
