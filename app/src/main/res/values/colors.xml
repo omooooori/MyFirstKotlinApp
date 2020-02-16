@@ -11,4 +11,7 @@
     <!--    DictionaryApp-->
     <color name="edit_text_border">#ffdd99</color>
     <color name="edit_text_background">#fff7e6</color>
+    <!--    MovieRentalApp-->
+    <color name="divider_gray">#eeeeee</color>
+    <color name="white">#ffffff</color>
 </resources>
