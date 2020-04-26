@@ -88,6 +88,11 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this@MainActivity, MovieRentalApp::class.java)
                 startActivity(intent)
             }
+
+            if (item == "My Diary App") {
+                val intent = Intent(this@MainActivity, MyDiaryActivity::class.java)
+                startActivity(intent)
+            }
         }
     }
 }
